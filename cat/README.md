@@ -1,5 +1,5 @@
-
 # AWS Cost Allocation Tags – POC
+<img width="1200" height="428" alt="image" src="https://github.com/user-attachments/assets/b17cc866-c926-4b72-a042-72c99a00c084" />
 
 ---
 
@@ -40,13 +40,19 @@ These tags help in categorizing and identifying resource usage for cost manageme
 
 1. Sign in to the AWS Management Console as **Root User** or **IAM user with billing access**.
 2. Navigate to **Billing and Cost Management** service.
+<img width="1856" height="553" alt="image" src="https://github.com/user-attachments/assets/a04ccb27-3733-415d-94ef-116d24033d15" />
 
 ---
 
 ### 2. Create a Cost Allocation Tag
 
 1. Go to **Resource Groups & Tag Editor** in AWS Console.
+<img width="1059" height="184" alt="image" src="https://github.com/user-attachments/assets/7e02f809-d5be-428c-a2fd-29ba1328f1e2" />
+
+
 2. Click **Manage Tags** → **Create Tag**.
+
+
 3. Enter:
 
    * **Key**: `Project` (or as per requirement)
@@ -57,11 +63,23 @@ These tags help in categorizing and identifying resource usage for cost manageme
 
 ### 3. Assign Tag to Resources
 
-1. In **Tag Editor**, select the desired **Region** and **Resource types**.
-2. Select the resources you want to tag.
-3. Click **Manage Tags of Selected Resources** → **Add Tag**.
-4. Add the same key-value pair created above.
-5. Save the changes.
+1. In **Tag Editor** select **Region**
+2. Select **Resource types**
+   <img width="1844" height="897" alt="Screenshot from 2025-08-11 23-08-51" src="https://github.com/user-attachments/assets/d848037b-54c1-40f3-b802-bc2a86597e79" />
+   
+3. **Search resources**
+   <img width="1542" height="586" alt="Screenshot from 2025-08-11 23-02-22" src="https://github.com/user-attachments/assets/5b9e6258-3a63-408f-91f2-7293d00e489b" />
+
+4. **Select resource**
+   <img width="1844" height="364" alt="Screenshot from 2025-08-11 23-07-50" src="https://github.com/user-attachments/assets/4d2732be-9012-4d33-878d-ed7fde261df0" />
+
+5. **Manage tags of selected resources**
+6. **Add Tag**
+   * **Key** field : `Project`
+   * **Value** field : `POC-AWS-Cost`
+   * Save/Apply changes.
+  <img width="1846" height="902" alt="Screenshot from 2025-08-11 23-07-17" src="https://github.com/user-attachments/assets/fa8368ee-e508-4e4d-9ba2-eeb3177badbd" />
+
 
 ---
 
