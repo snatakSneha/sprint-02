@@ -15,6 +15,8 @@
 
 The purpose of this POC is to **configure and enable AWS Cost Allocation Tags** to track and allocate AWS resource costs.
 These tags help in categorizing and identifying resource usage for cost management and reporting.
+> For Detailed Documentation, Please vist [Link](https://github.com/Snaatak-Cloudops-Crew/documentation/blob/scrum-115-anuj/Cost-Optimization/Aws-Cost-Allocation-Tags/README.md)
+
 
 ---
 
@@ -40,15 +42,20 @@ These tags help in categorizing and identifying resource usage for cost manageme
 
 1. Sign in to the AWS Management Console as **Root User** or **IAM user with billing access**.
 2. Navigate to **Billing and Cost Management** service.
+<details>
+<summary>Click here to view Screenshot</summary>
 <img width="1856" height="553" alt="image" src="https://github.com/user-attachments/assets/a04ccb27-3733-415d-94ef-116d24033d15" />
+</details>
 
 ---
 
 ### 2. Create a Cost Allocation Tag
 
 1. Go to **Resource Groups & Tag Editor** in AWS Console.
-<img width="1059" height="184" alt="image" src="https://github.com/user-attachments/assets/7e02f809-d5be-428c-a2fd-29ba1328f1e2" />
-
+<details>
+<summary>Click here to view Screenshot</summary>
+ <img width="1059" height="184" alt="image" src="https://github.com/user-attachments/assets/7e02f809-d5be-428c-a2fd-29ba1328f1e2" />
+</details>
 
 2. Click **Manage Tags** → **Create Tag**.
 
@@ -65,21 +72,32 @@ These tags help in categorizing and identifying resource usage for cost manageme
 
 1. In **Tag Editor** select **Region**
 2. Select **Resource types**
+<details>
+<summary>Click here to view Screenshot</summary>
    <img width="1844" height="897" alt="Screenshot from 2025-08-11 23-08-51" src="https://github.com/user-attachments/assets/d848037b-54c1-40f3-b802-bc2a86597e79" />
-   
-3. **Search resources**
-   <img width="1542" height="586" alt="Screenshot from 2025-08-11 23-02-22" src="https://github.com/user-attachments/assets/5b9e6258-3a63-408f-91f2-7293d00e489b" />
+</details>
 
-4. **Select resource**
-   <img width="1844" height="364" alt="Screenshot from 2025-08-11 23-07-50" src="https://github.com/user-attachments/assets/4d2732be-9012-4d33-878d-ed7fde261df0" />
+4. **Search resources**
+<details>
+<summary>Click here to view Screenshot</summary>
+ <img width="1542" height="586" alt="Screenshot from 2025-08-11 23-02-22" src="https://github.com/user-attachments/assets/5b9e6258-3a63-408f-91f2-7293d00e489b" />
+</details>
 
-5. **Manage tags of selected resources**
-6. **Add Tag**
+5. **Select resource**
+<details>
+<summary>Click here to view Screenshot</summary>
+ <img width="1844" height="364" alt="Screenshot from 2025-08-11 23-07-50" src="https://github.com/user-attachments/assets/4d2732be-9012-4d33-878d-ed7fde261df0" />
+</details>
+
+6. **Manage tags of selected resources**
+7. **Add Tag**
    * **Key** field : `Project`
    * **Value** field : `POC-AWS-Cost`
    * Save/Apply changes.
+<details>
+<summary>Click here to view Screenshot</summary>
   <img width="1846" height="902" alt="Screenshot from 2025-08-11 23-07-17" src="https://github.com/user-attachments/assets/fa8368ee-e508-4e4d-9ba2-eeb3177badbd" />
-
+</details>
 
 ---
 
@@ -137,7 +155,11 @@ Tagging AWS resources and using Cost Explorer for cost analysis is a powerful co
 
 ## References
 
-* [AWS Documentation – Cost Allocation Tags](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html)
-* [AWS Resource Tagging Best Practices](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html)
-* [Last Sprint Documentation](https://github.com/Snaatak-Cloudops-Crew/documentation/blob/scrum-115-anuj/Cost-Optimization/Aws-Cost-Allocation-Tags/README.md)
+## References
+
+| Title | Link |
+|-------|------|
+| AWS Documentation – Cost Allocation Tags | [View](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html) |
+| AWS Resource Tagging Best Practices | [View](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html) |
+| Last Sprint Documentation | [View](https://github.com/Snaatak-Cloudops-Crew/documentation/blob/scrum-115-anuj/Cost-Optimization/Aws-Cost-Allocation-Tags/README.md) |
 
