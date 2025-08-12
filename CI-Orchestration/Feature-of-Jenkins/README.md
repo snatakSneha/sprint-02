@@ -75,6 +75,19 @@ The purpose of this document is to provide a clear understanding of the key feat
 
 <img width="1019" height="634" alt="image" src="https://github.com/user-attachments/assets/31d1ccae-bdd7-4a04-ba8e-2768863c6def" />
 
+
+| **Step** | **Action** | **Details** |
+|----------|-----------|-------------|
+| **1. Code Commit** | Developer pushes code | The developer commits and pushes the latest changes to the Git repository. |
+| **2. Trigger** | Webhook triggers build | A webhook notifies Jenkins of the change, automatically starting the pipeline. |
+| **3. Code Checkout** | Pull latest code | Jenkins fetches the latest version of the code from the repository. |
+| **4. Build** | Compile/build application | The application is compiled using tools like Maven, Gradle, or npm. |
+| **5. Testing** | Run automated tests | Executes unit tests, integration tests, and other validations. |
+| **6. Reporting** | Generate reports | Build and test results are documented and stored for review. |
+| **7. Deployment** | Deploy to environment | If tests pass, the application is deployed to staging or production. |
+| **8. Notification** | Inform the team | Sends build/deployment status updates via Slack, Email, or other channels. |
+
+
 ---
 
 
@@ -144,11 +157,10 @@ Jenkins remains a cornerstone in the CI/CD ecosystem, offering flexibility, exte
 
 ##  References
 
-| Reference Name                 | Link                                                                                                             |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
-| Jenkins Official Documentation | [https://www.jenkins.io/doc/](https://www.jenkins.io/doc/)                                                       |
-| Jenkins GitHub Repository      | [https://github.com/jenkinsci/jenkins](https://github.com/jenkinsci/jenkins)                                     |
-| Pipeline Syntax Reference      | [https://www.jenkins.io/doc/book/pipeline/syntax/](https://www.jenkins.io/doc/book/pipeline/syntax/)             |
-| Jenkins Best Practices Guide   | [https://www.jenkins.io/doc/book/best-practices/](https://www.jenkins.io/doc/book/best-practices/)               |
-| CI/CD Concepts – Atlassian     | [https://www.atlassian.com/continuous-delivery/ci-vs-ci](https://www.atlassian.com/continuous-delivery/ci-vs-ci) |
+
+| Reference Name                 | Link                                                                                                 |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------- |
+| Jenkins Official Documentation | [https://www.jenkins.io/doc/](https://www.jenkins.io/doc/)                                           |
+| Pipeline Syntax Reference      | [https://www.jenkins.io/doc/book/pipeline/syntax/](https://www.jenkins.io/doc/book/pipeline/syntax/) |
+| Jenkins GitHub Repository      | [https://github.com/jenkinsci/jenkins](https://github.com/jenkinsci/jenkins)                         |
 
