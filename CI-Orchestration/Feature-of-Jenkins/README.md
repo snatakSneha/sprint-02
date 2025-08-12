@@ -56,20 +56,13 @@ The purpose of this document is to:
 
 ---
 
-##  Pre-requisites
+## Pre-requisites
 
-* **Software:**
-
-  * Java (JDK 11 or later)
-  * Jenkins WAR or native installer
-  * Git
-* **Hardware:**
-
-  * Minimum 2 GB RAM, 50 GB storage
-* **Access:**
-
-  * Admin access to install Jenkins
-  * Network access to Git repositories and build agents
+| Category  | Requirements |
+|-----------|--------------|
+| **Software** | - Java (JDK 11 or later)<br>- Jenkins WAR or native installer<br>- Git |
+| **Hardware** | - Minimum 2 GB RAM<br>- 50 GB storage |
+| **Access**   | - Admin access to install Jenkins<br>- Network access to Git repositories and build agents |
 
 ---
 
@@ -104,7 +97,7 @@ The purpose of this document is to:
 ##  Workflow Diagram
 
 
-<img width="1019" height="634" alt="image" src="https://github.com/user-attachments/assets/31d1ccae-bdd7-4a04-ba8e-2768863c6def" />
+<img width="1019" height="534" alt="image" src="https://github.com/user-attachments/assets/31d1ccae-bdd7-4a04-ba8e-2768863c6def" />
 
 
 | **Step** | **Action** | **Details** |
@@ -123,14 +116,15 @@ The purpose of this document is to:
 
 
 
+## Best Practices
 
-##  Best Practices
-
-* Keep Jenkins updated to the latest stable version
-* Use pipeline as code (Jenkinsfile) for reproducibility
-* Limit plugins to essential ones to avoid security risks
-* Use distributed build agents for scalability
-* Implement backup and restore strategies
+| Best Practice | Description |
+|---------------|-------------|
+| **Keep Jenkins updated** | Always use the latest stable version to ensure security patches and new features. |
+| **Pipeline as Code** | Use `Jenkinsfile` for reproducibility and version control of pipeline configurations. |
+| **Limit Plugins** | Install only essential plugins to reduce security risks and performance issues. |
+| **Distributed Build Agents** | Use multiple agents to improve scalability and reduce build times. |
+| **Backup & Restore Strategies** | Implement regular backups and have a tested restore process in place. |
 
 ---
 
