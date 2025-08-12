@@ -104,11 +104,22 @@ These tags help in categorizing and identifying resource usage for cost manageme
 ### 4. Activate Tag for Cost Allocation
 
 1. Open **Billing Console** → **Cost Allocation Tags**.
+<details>
+<summary>Click here to view Screenshot</summary>
+ <img width="1853" height="573" alt="image" src="https://github.com/user-attachments/assets/a54d0805-37df-4a06-a048-9d1707dd5b67" />
+<details>
 2. Locate your tag key (e.g., `Project`).
 3. Check the box next to it.
 4. Click **Activate**.
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="1853" height="573" alt="Screenshot from 2025-08-12 10-58-29" src="https://github.com/user-attachments/assets/7c3aa625-4279-43e9-bce6-ff5bb4bbcfc2" />
+<details>
 5. Wait up to **24 hours** for AWS to start applying it to billing data.
-
+<details>
+<summary>Click here to view Screenshot</summary>
+ <img width="1853" height="573" alt="image" src="https://github.com/user-attachments/assets/cb97e21d-c2b0-45c5-bea8-98f31d8fe92b" />
+<details>
 ---
 
 ### 5. Verify in Cost Explorer
