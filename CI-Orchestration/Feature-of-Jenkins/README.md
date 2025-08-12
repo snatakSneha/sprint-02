@@ -15,9 +15,9 @@
 ## **Table of Contents**
 
 - [Introduction](#introduction)
-- [What is Jenkins?](#what-is-jenkins)
+- [Purpose](#purpose)
 - [Why Jenkins?](#why-jenkins)
-- [Workflow Diagram](#4-workflow-diagram)
+- [Workflow Diagram](#workflow-diagram)
 - [Pre-requisites](#pre-requisites)
 - [Advantages](#advantages)
 - [Limitations](#limitations)
@@ -32,13 +32,7 @@
 
 ##  Introduction
 
-Jenkins is one of the most popular open-source automation servers used for Continuous Integration (CI) and Continuous Delivery (CD). It orchestrates the process of building, testing, and deploying code, ensuring faster development cycles and higher software quality.
-
----
-
-##  What is Jenkins?
-
-Jenkins is a self-contained, Java-based automation server that enables developers to integrate changes into a project automatically. It supports various plugins, allowing it to integrate with a vast range of development, testing, and deployment tools.
+Jenkins is one of the most popular open-source automation servers used for Continuous Integration (CI) and Continuous Delivery (CD). It orchestrates the process of building, testing, and deploying code, ensuring faster development cycles and higher software quality. Jenkins is a self-contained, Java-based automation server that enables developers to integrate changes into a project automatically. It supports various plugins, allowing it to integrate with a vast range of development, testing, and deployment tools.
 
 ---
 
@@ -54,11 +48,8 @@ Jenkins is a self-contained, Java-based automation server that enables developer
 
 ##  Workflow Diagram
 
-```
-[Developer] → [Commit Code to VCS] → [Jenkins Trigger] → [Build] → [Test] → [Deploy] → [Feedback to Developer]
-```
 
-*(You can use a visual diagram tool like draw\.io or Lucidchart for presentation-ready workflows.)*
+<img width="1019" height="634" alt="image" src="https://github.com/user-attachments/assets/31d1ccae-bdd7-4a04-ba8e-2768863c6def" />
 
 ---
 
