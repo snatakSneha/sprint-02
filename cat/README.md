@@ -9,18 +9,35 @@
 | ----------- | ------- | ----------- | ---------- | --------------- | --------------------------- |
 |11-08-2025 |   V1    | Sneha Joshi | 31-07-2025 | Internal Review | Siddharth Pawar/Sahil Gupta |
 
+
 ---
 
-## Objective
+## Table of Contents
+
+* [Purpose](#purpose)
+* [Pre-requisites](#pre-requisites)
+* [Tagging strategy and conventions](#tagging-strategy-and-conventions)
+* [Step-by-step setup guide](#step-by-step-setup-guide)
+* [Expected Outcome](#expected-outcome)
+* [Troubleshooting](#troubleshooting)
+* [Conclusion](#conclusion)
+* [Contact Information](#contact-information)
+* [References](#references)
+
+---
+
+
+## Purpose
 
 The purpose of this POC is to **configure and enable AWS Cost Allocation Tags** to track and allocate AWS resource costs.
 These tags help in categorizing and identifying resource usage for cost management and reporting.
-> For Detailed Documentation, Please vist [Link](https://github.com/Snaatak-Cloudops-Crew/documentation/blob/scrum-115-anuj/Cost-Optimization/Aws-Cost-Allocation-Tags/README.md)
+
+**Related Documentation:** [AWS Cost Allocation Tags Documentation](https://github.com/Snaatak-Cloudops-Crew/documentation/blob/scrum-115-anuj/Cost-Optimization/Aws-Cost-Allocation-Tags/README.md)
 
 
 ---
 
-## Prerequisites
+## Pre-requisites
 
 * **AWS Account** with permissions to:
 
@@ -36,7 +53,16 @@ These tags help in categorizing and identifying resource usage for cost manageme
 
 ---
 
-## Step-by-Step Setup
+## Tagging strategy and conventions
+
+| **Category**                 | **Details**                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Minimal Recommended Tags** | **Environment** – e.g., `prod`, `staging`, `dev`, `test`<br>**Project/Application** – project short name<br>**Owner** – team or individual<br>**CostCenter** – accounting code<br>**BillingCode** – optional finer-grained allocation<br>**Stack** – e.g., `web`, `backend`, `data`<br>**Expiry/CreatedOn** – optional lifecycle |
+| **Naming Conventions**       | **Keys** – TitleCase (e.g., `CostCenter`)<br>**Values** – consistent shortcodes for projects and cost centers<br>Use a **stable vocabulary** for values<br>Document allowed keys/values in a **CSV or central tag policy repository**                                                                                            |
+| **Tagging Limits & Notes**   | AWS supports **up to 50 tags per resource** – keep only essential tags<br>Not all AWS resources **auto-propagate tags** – check service-specific documentation                                                                                                                                                                   |
+---
+
+## Step-by-Step setup guide
 
 ### 1. Access the Billing Console
 
@@ -170,7 +196,6 @@ Tagging AWS resources and using Cost Explorer for cost analysis is a powerful co
 
 ---
 
-## References
 
 ## References
 
