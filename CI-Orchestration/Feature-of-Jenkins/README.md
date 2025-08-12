@@ -1,5 +1,5 @@
 # **CI Orchestration Tools: Feature Document of Jenkins**
-<img width="396" height="627" alt="image" src="https://github.com/user-attachments/assets/1dfbff02-7523-4b5c-94fc-4edf859a9639" />
+<img width="496" height="827" alt="image" src="https://github.com/user-attachments/assets/1dfbff02-7523-4b5c-94fc-4edf859a9639" />
 
 ---
 
@@ -18,8 +18,9 @@
 - [Purpose](#purpose)
 - [Why Jenkins?](#why-jenkins)
 - [Pre-requisites](#pre-requisites)
-- [Workflow Diagram](#workflow-diagram)
+- [Key Features of Jenkins](#key-features-of-jenkins)
 - [Advantages and Disadvantages of Jenkins](#advantages-and-disadvantages-of-jenkins)
+- [Workflow Diagram](#workflow-diagram)
 - [Best Practices](#best-practices)
 - [Real-World Use Cases of Jenkins](#real-world-use-cases-of-jenkins)
 - [Troubleshooting](#troubleshooting)
@@ -38,8 +39,10 @@ Jenkins is one of the most popular open-source automation servers used for Conti
 
 ## Purpose
 
-The purpose of this document is to provide a clear understanding of the key features of Jenkins, how it facilitates Continuous Integration (CI) and Continuous Delivery (CD), and why it is widely used in DevOps pipelines. This README acts as a reference guide for both beginners and professionals to quickly grasp Jenkins capabilities, evaluate its benefits, and understand its possible limitations before implementation in real-world projects.
-
+The purpose of this document is to:
+- Highlight the key features of Jenkins.
+- Explain their significance in real-world CI/CD workflows.
+- Provide examples to help developers and DevOps engineers implement Jenkins effectively.
 
 ---
 
@@ -70,6 +73,34 @@ The purpose of this document is to provide a clear understanding of the key feat
 
 ---
 
+## Key Features of Jenkins
+
+| Feature | Description |
+|---------|-------------|
+| **Open Source & Free to Use** | No licensing cost, backed by an active community. |
+| **Extensible via Plugins** | 1,800+ plugins available for SCM, build tools, test automation, etc. |
+| **Cross-Platform** | Runs on Windows, Linux, and macOS. |
+| **Distributed Builds** | Supports Master-Agent architecture for scaling. |
+| **Integration with Multiple Tools** | Works with Git, Maven, Docker, Kubernetes, AWS, and more. |
+| **Pipeline as Code** | Supports Groovy-based scripted and declarative pipelines. |
+| **Rich UI and REST API** | Manage jobs via a web interface or programmatically. |
+
+
+---
+
+
+## Advantages and Disadvantages of Jenkins
+
+| Advantages | Disadvantages |
+|------------|---------------|
+| Free and open source | Requires server setup & maintenance |
+| Large plugin ecosystem | Performance issues with too many plugins |
+| Supports almost all CI/CD tools | Steep learning curve for complex pipelines |
+| Highly customizable | Plugin compatibility issues possible |
+| Strong community support | Manual scaling setup required |
+
+---
+
 ##  Workflow Diagram
 
 
@@ -91,20 +122,6 @@ The purpose of this document is to provide a clear understanding of the key feat
 ---
 
 
-
-
-## Advantages and Disadvantages of Jenkins
-
-| **Advantages**                                                                                       | **Disadvantages**                                                                                        |
-| ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Open Source & Free** – Jenkins is free to use with an active open-source community.                | **Complex Configuration** – Advanced setups require deep expertise and can become complex to maintain. |
-| **Extensible via Plugins** – Over 1800+ plugins available to integrate with various tools.           | **Plugin Dependency Issues** – Too many plugins can cause compatibility and stability problems.        |
-| **Cross-Platform Support** – Works on Windows, Linux, and macOS.                                     | **Performance Overhead** – Can be resource-intensive with large builds or many jobs.                   |
-| **Supports Distributed Builds** – Master-agent architecture helps in load distribution.              | **UI/UX Outdated** – Jenkins interface is functional but not modern compared to newer CI tools.        |
-| **Highly Customizable** – Jobs, pipelines, and configurations can be tailored to specific workflows. | **Steep Learning Curve** – Beginners may find Groovy pipelines and advanced configs difficult.         |
-| **Strong Community Support** – Active forums, documentation, and tutorials available.                | **Security Concerns** – Requires regular updates and secure configurations to avoid vulnerabilities.   |
-
----
 
 
 ##  Best Practices
