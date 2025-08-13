@@ -1,4 +1,4 @@
-[costs.csv](https://github.com/user-attachments/files/21749434/costs.csv)[costs.csv](https://github.com/user-attachments/files/21749427/costs.csv)[costs.csv](https://github.com/user-attachments/files/21749420/costs.csv)# Cost Tag Reports via Cost Explorer
+# Cost Tag Reports via Cost Explorer
 <img width="1200" height="430" alt="image" src="https://github.com/user-attachments/assets/bd4101f9-625a-44d4-b039-a199125aa9c1" />
 
 ---
