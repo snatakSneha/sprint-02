@@ -1,4 +1,4 @@
-# Cost Tag Reports via Cost Explorer
+[costs.csv](https://github.com/user-attachments/files/21749434/costs.csv)[costs.csv](https://github.com/user-attachments/files/21749427/costs.csv)[costs.csv](https://github.com/user-attachments/files/21749420/costs.csv)# Cost Tag Reports via Cost Explorer
 <img width="1200" height="430" alt="image" src="https://github.com/user-attachments/assets/bd4101f9-625a-44d4-b039-a199125aa9c1" />
 
 ---
@@ -47,42 +47,88 @@ AWS **Cost Tag Reports** help analyze and track costs by associating AWS resourc
 ### 1- Enable Cost Allocation Tags
 1. Sign in to the **AWS Management Console**.
 2. Navigate to **Billing → Cost Allocation Tags**.
+
+<details>
+<summary>Click here to view Screenshot</summary>
+ <img width="1853" height="573" alt="image" src="https://github.com/user-attachments/assets/a54d0805-37df-4a06-a048-9d1707dd5b67" />
+</details>
+
 3. Search for the tag you want to track (e.g., `Project`).
 4. Select the checkbox next to your tag.
+   
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="1853" height="573" alt="Screenshot from 2025-08-12 10-58-29" src="https://github.com/user-attachments/assets/7c3aa625-4279-43e9-bce6-ff5bb4bbcfc2" />
+</details>
+
 5. Click **Activate**.
+
+<details>
+<summary>Click here to view Screenshot</summary>
+ <img width="1853" height="573" alt="image" src="https://github.com/user-attachments/assets/cb97e21d-c2b0-45c5-bea8-98f31d8fe92b" />
+</details>
+
+
 6. Wait up to **24 hours** for the tag to appear in Cost Explorer.
 
----
 
-### 2- Activate Tags in Billing
-1. Go to **Billing → Cost Allocation Tags**.
-2. Verify that your tag’s **Status** is set to **Active**.
-3. If not, select the tag and click **Activate** again.
 
 ---
 
-### 3- Access Cost Explorer
-1. In the AWS Management Console, go to **Cost Explorer**.
-2. Click **Launch Cost Explorer**.
-3. Select a **Date Range** for your report (e.g., last month, this month-to-date).
+### 2- Save the Report in AWS
+
+1. Click Save to report library (top right, orange button).
+
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="1486" height="584" alt="Screenshot from 2025-08-13 09-12-24" src="https://github.com/user-attachments/assets/16b12a22-67c6-4aa5-9807-590f412dd20f" />
+</details>
+
+2. Give your report a name (e.g., Project_Tag_Cost_Report).
+
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="1861" height="633" alt="Screenshot from 2025-08-13 13-04-25" src="https://github.com/user-attachments/assets/813bb53b-b69c-4f15-9430-c3d4b944cc6c" />
+</details>
+
+3. Add an optional description for clarity.
+
+4. Click Save.
+   
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="1861" height="782" alt="Screenshot from 2025-08-13 13-05-17" src="https://github.com/user-attachments/assets/c3e3695b-67b0-484d-b4c6-d86493fbf8bb" />
+</details>
 
 ---
 
-### 4- Apply Filters and Generate Reports
-1. In the **Filter** section, select **Tags**.
-2. Choose the activated tag key (e.g., `Project`).
-3. Select specific **tag values** (e.g., `POC-AWS-Cost`).
-4. Group results by **Service** or **Linked Account** for deeper insights.
-5. Click **Apply Filters** to refresh the report.
-
----
-
-### 5- Save and Export Reports
+### 3- Save and Export Reports
 1. Once the desired view is ready, click **Save As** to store the report in AWS.
+   
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="1851" height="691" alt="image" src="https://github.com/user-attachments/assets/8ddd41c8-89fe-48d8-8ff4-d36e8258665e" />
+</details>
+
 2. Optionally, click **Download CSV** to export the data.
+
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="1861" height="384" alt="Screenshot from 2025-08-13 13-05-53" src="https://github.com/user-attachments/assets/9819661e-56aa-4d70-851c-f8f550c66d11" />
+</details>
+
 3. Share the exported file with stakeholders for review.
 
+
 ---
+[Upl"Project","No tag key: Project($)","Total costs($)"
+"Project total","4.8249706407","4.8249706407"
+"2025-02-01","","0"
+"2025-03-01","","0"
+"2025-04-01","","0"
+"2025-05-01","","0"
+"2025-06-01","","0"
+"2025-07-01","4.8249706407","4.8249706407"oading costs.csv…]()
 
 ##  Example Use Case
 If your organization has multiple projects running in AWS, you can:
