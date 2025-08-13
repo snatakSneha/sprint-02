@@ -119,16 +119,13 @@ AWS **Cost Tag Reports** help analyze and track costs by associating AWS resourc
 
 3. Share the exported file with stakeholders for review.
 
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="698" height="307" alt="image" src="https://github.com/user-attachments/assets/4d46dd8e-bf63-4908-8f55-d9c8fa507a32" />
+</details>
 
 ---
-[Upl"Project","No tag key: Project($)","Total costs($)"
-"Project total","4.8249706407","4.8249706407"
-"2025-02-01","","0"
-"2025-03-01","","0"
-"2025-04-01","","0"
-"2025-05-01","","0"
-"2025-06-01","","0"
-"2025-07-01","4.8249706407","4.8249706407"oading costs.csv…]()
+
 
 ##  Example Use Case
 If your organization has multiple projects running in AWS, you can:
