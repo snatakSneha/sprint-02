@@ -157,9 +157,32 @@ These tags help in categorizing and identifying resource usage for cost manageme
 ### 5. Verify in Cost Explorer
 
 1. After at least 24 hours, open **Cost Explorer**.
+
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="1486" height="584" alt="image" src="https://github.com/user-attachments/assets/a77482d7-3405-4466-9d71-745632952caf" />
+</details>
+
 2. Select **Group By** → **Tag**.
+
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="382" height="492" alt="image" src="https://github.com/user-attachments/assets/1a0db6de-646b-4aa1-8af1-cc34c094eb26" />
+</details>
+
 3. Choose your activated tag key (`Project`).
+
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="382" height="492" alt="image" src="https://github.com/user-attachments/assets/fe1b6315-98d3-4b7c-86d2-abfaace6f8bc" />
+</details>
+
 4. Review the cost breakdown by tag value.
+
+<details>
+<summary>Click here to view Screenshot</summary>
+<img width="1854" height="895" alt="image" src="https://github.com/user-attachments/assets/b7faf953-9826-465f-b1b9-54536cc9983c" />
+</details>
 
 ---
 
