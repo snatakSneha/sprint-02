@@ -75,12 +75,11 @@ A typical module directory structure:
 ```bash
 
 my-module/
-├── main.tf          # Primary resources definition
-├── variables.tf     # Input variable definitions
-├── outputs.tf       # Output values
-├── README.md        # Module documentation
-└── versions.tf      # Terraform and provider version constraints
-
+├── main.tf # Defines core infrastructure resources
+├── variables.tf # Declares input variables with types & defaults
+├── outputs.tf # Defines values to share with other modules
+├── versions.tf # Specifies required Terraform & provider versions
+└── README.md # Documentation for this module
 ```
 
 ---
@@ -96,7 +95,7 @@ variable "instance_type" {
   type        = string
   default     = "t2.micro"
 }
-````
+```
 
 ---
 
